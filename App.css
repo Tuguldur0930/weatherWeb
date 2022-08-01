@@ -1,0 +1,118 @@
+.textFont {
+  color: white;
+  font-family: 'Segoe UI';
+}
+
+#date {
+  position: absolute;
+  bottom: 600px;
+  right: 50px;
+  color: white;
+  background-color: black;
+  opacity: 0.75;
+  padding: 80px 80px;
+  height: 100px;
+  width: 300px;
+  font-family: 'Segoe UI';
+  font-size: 70px;
+  border-radius: 50px 50px;
+}
+
+#dateBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+#background {
+  background-image: url(https://i.pinimg.com/originals/cb/6d/2c/cb6d2c974f71580b964c1f931e8b2aa3.jpg);
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+#weatherIcon {
+  opacity: 1;
+  position: static;
+}
+
+#infoBox {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  width: 400px;
+  height: 600px;
+  border-radius: 25px;
+  background-color: black;
+  opacity: 0.75;
+}
+
+#search {
+  width: 30%;
+  position: absolute;
+  top: 50px;
+  left: 500px;
+}
+
+#temperature {
+  top: 50px;
+  left: 200px;
+  text-align: center;
+  position: absolute;
+  font-size: 60px;
+}
+
+#weatherMain {
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  left: 30px;
+  font-size: 40px;
+}
+
+#weatherDescription {
+  position: absolute;
+  text-align: left;
+  left: 30px;
+  top: 215px;
+  font-size: 30px;
+}
+
+#nextWeekBox {
+  border-radius: 25px;
+  opacity: 0.75;
+  position: relative;
+  background-color: black;
+  width: 1000px;
+  height: 200px;
+  color: white;
+  top: 450px;
+  left: 500px;
+}
+
+#location {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .App-logo {
+    width: 100%;
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
